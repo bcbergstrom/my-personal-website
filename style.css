@@ -1,3 +1,39 @@
 body {
-    background: blue;
+    background: #36013F;
+}
+.title{
+    background: rgba(255, 255, 255, 0.521);
+    text-align:center;
+}
+.title #title{
+    font-size: 56px;
+}
+#navbar-index {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#navbar-index li a {
+    display: block;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+#navbar-index li a:hover {
+    background-color: #ddddddd0;
+}
+
+#navbar-index li{
+    float: left;
+}
+#navbar-index li .active-href{
+    background-color:rgb(176, 51, 176);
+
+}
+.body p{
+    background-color:white;
+    font-size:20px;
 }
